@@ -4,8 +4,8 @@
 - 示例：二分查找时间复杂度为O(log n)
 
 ## 真题解析
-void func(int n)
-{
+```c
+void func(int n){
     if(n <= 1) return;
     func(n/2);
     func(n/2);
