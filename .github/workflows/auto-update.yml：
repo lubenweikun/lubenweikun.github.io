@@ -1,0 +1,19 @@
+name: Weekly Auto Update
+on:
+  schedule:
+    - cron: '0 20 * * 0' # 每周日北京时间20:00运行
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+      
+      - name: Auto Commit
+        run: |
+          echo "第$(expr $(date +%W)周更新" >> notes/week$(date +%W).md
+          git config --global user.name "AutoBot"
+          git config --global user.email "auto@example.com"
+          git add .
+          git commit -m "Auto: 第$(date +%W)周笔记"
+          git push
