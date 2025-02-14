@@ -10,10 +10,10 @@
   }
   ```
   **解析**：时间复杂度为O(n)
+![mmexport1664095468032](https://github.com/user-attachments/assets/7f6c28e9-ea2d-4716-96e3-8e189fd1e708)
+
 
 ## 2. 本周错题
 | 题号 | 错误点 | 正确解法 |
 |------|--------|----------|
 | 2023-45 | 混淆FIFO和LRU | 查看页面访问时间戳 |
-
-![mmexport1664095468032](https://github.com/user-attachments/assets/f68d87a7-2636-47fe-8f1e-5cf7fdcde725)
