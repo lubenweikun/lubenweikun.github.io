@@ -10,3 +10,4 @@ void func(int n){
     func(n/2);
     func(n/2);
 }
+![mmexport1662544306470](https://github.com/user-attachments/assets/5664c501-e6ea-4b17-abb4-011817f45721)
