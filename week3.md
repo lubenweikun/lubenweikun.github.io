@@ -15,4 +15,4 @@
 | 题号 | 错误点 | 正确解法 |
 |------|--------|----------|
 | 2023-45 | 混淆FIFO和LRU | 查看页面访问时间戳 |
-#![mmexport1664095468032](https://github.com/user-attachments/assets/13420a7a-b842-45e0-8d9b-6d75c63835df)
+![mmexport1664095468032](https://github.com/user-attachments/assets/13420a7a-b842-45e0-8d9b-6d75c63835df)
